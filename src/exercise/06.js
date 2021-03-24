@@ -1,6 +1,3 @@
-// Basic Forms
-// http://localhost:3000/isolated/exercise/06.js
-
 import * as React from 'react'
 
 function UsernameForm({ onSubmitUsername }) {
@@ -63,7 +60,6 @@ function UsernameForm({ onSubmitUsername }) {
     // ao próprio conteúdo em minúsculas
     // aaaA -> aaaa
     const isValid = (val === val.toLowerCase())
-
     // Atualizado o estado
     setMsg(isValid ? '' : 'O valor informado deve estar em minúsculas.')
     */
